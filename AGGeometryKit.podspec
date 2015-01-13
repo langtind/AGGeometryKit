@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
     s.subspec 'Dependencies' do |ss|
         ss.dependency      'JRSwizzle', '~> 1.0'
-        ss.dependency      'AGAssert', '~> 0.2'
+        ss.dependency      'AGAssert', '~> 1.0'
     end
 
     s.subspec 'Core' do |ss|
